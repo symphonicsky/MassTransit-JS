@@ -1,15 +1,9 @@
 {
-  "name": "masstransit-rabbitmq",
+  "name": "@mass-transit-js",
   "version": "0.1.3",
   "description": "MassTransit for JavaScript, RabbitMQ",
   "main": "dist/bus.js",
   "typings": "dist/bus",
-  "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test",
-    "test": "jasmine-ts --config=jasmine.json"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MassTransit/MassTransit-JS.git"
